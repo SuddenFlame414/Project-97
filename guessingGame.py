@@ -3,7 +3,7 @@ import random
 
 chances=0
 guess = int(input("Enter guess: "))
-number = random(0,10)
+number=random.randint(1,9)
 while chances<5:
     if guess==number :
         print("Congratulations you won!!")
